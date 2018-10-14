@@ -14,9 +14,20 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)viewDidLoad
+{
+   [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *str = Nil;
+    NSLog(@"%@", str);
+    
+    NSString *str1 = nil;
+    NSLog(@"%@", str1);
+    
+    NSString *str2 = NULL;
+    NSLog(@"%@", str2);
+    
 }
 
 
